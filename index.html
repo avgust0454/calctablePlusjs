@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="custom.css">
+<script src="script.js" defer></script>
+<title>Таблица с подсчётом итого</title>
+</head>
+<body>
+
+<table>
+	<tr>
+		<th>Название</th>
+		<th>Количество</th>
+		<th>Сумма</th>
+	</tr>
+	<tr class="item">
+		<td class="name">Картофель</td>
+		<td class="count">
+			<input class="digit" type="number" size="3" value="1">
+		</td>
+		<td class="subtotal">45</td>
+	</tr>
+	<tr class="item">
+		<td class="name">Лук</td>
+		<td class="count">
+			<input class="digit" type="number" size="3" value="2">
+		</td>
+		<td class="subtotal">75</td>
+	</tr>
+	<tr class="item">
+		<td class="name">Морковь</td>
+		<td class="count">
+			<input class="digit" type="number" size="3" value="3">
+		</td>
+		<td class="subtotal">65</td>
+	</tr>
+	<tr>
+		<td colspan="2">Итого</td>
+		<td id="total">0</td>
+	</tr>
+</table>
+	
+</body>
+</html>
